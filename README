@@ -1,0 +1,7 @@
+Using pylint 1.5.0 and python 3.4.3
+
+$ pylint dummy
+************* Module dummy
+W:  2, 0: Module import itself (import-self)
+
+This should not be reported.
